@@ -1,0 +1,15 @@
+Locadora de Veículos
+
+Equipe:
+Ricardo Emidio
+Marcelo Albuquerque
+
+Descrição:
+A Locadora Mr. Veículos precisa de um sistema que automatize o processo de locação de seus veículos a clientes dos mais diversos tipos. Para isso será necessário que o sistema execute algumas tarefas, entre elas:
+	* Para realizar o cadastro do cliente (físico) será necessário pelo menos: nome, cpf, rg, habilitação, endereço, 2 telefones para contato.
+	* Para realizar o cadastro do cliente (jurídico) será necessário pelo menos: nome da empresa, cnpj, endereço, 2 telefones para contato.
+	* Para cadastrar um veículo no sistema será necessário: marca, modelo, placa, chassi, cor, quantidade de portas.
+	* Será locado um veículo (motocicleta, carro) para pessoas maiores de 17 anos e que sejam habilitadas para mesma categoria da qual vai locar o veículo.
+	* Há dois tipos de locação: Pessoal, onde o locatário será obrigatoriamente uma pessoa física, e o "empresarial" onde o locatário será obrigatoriamente uma pessoa jurídica.
+	* Para o tipo de locação "pessoal", o veículo será locado por um número máximo de dias (15 dias), prorrogável por mais 2 dias (caso o veículo não esteja reservado a outro cliente). Já no tipo de locação "empresarial" há a exigência de contrato de locação, e nesse caso, deverá sem implementado o tempo de locação (6 meses, 1 ano ou outros) e alguma outra necessidade.
+	* A Mr. Veículos dá um desconto de 10% aos clientes que pagam à vista. Isso deve ser implementado.
